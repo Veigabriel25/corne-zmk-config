@@ -79,10 +79,10 @@
             //                      | ADJ | ___ | ___ |    | ___ | ___ | ADJ |
 
             bindings = <
-&kp ESC     &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT     &kp CARET              &kp AMPERSAND    &kp ASTERISK       &kp PLUS   &kp MINUS             &kp DELETE
-&kp GRAVE   &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp EQUAL  &kp UNDERSCORE        &trans
-&sys_reset  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE   &kp NON_US_BACKSLASH  &sys_reset
-                                           &trans        &trans        &trans          &trans                 &trans           &trans
+&kp ESC         &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT     &kp CARET              &kp AMPERSAND    &kp ASTERISK       &kp PLUS   &kp MINUS             &kp DELETE
+&bt BT_CLR_ALL  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp EQUAL  &kp UNDERSCORE        &sys_reset
+&sys_reset      &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PIPE   &kp NON_US_BACKSLASH  &sys_reset
+                                               &trans        &trans        &trans          &trans                 &trans           &trans
             >;
         };
 
